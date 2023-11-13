@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4c0082;
+    color: #fff;
+    padding: 15px;
+    display: flex; /* Adiciona display flex para alinhar os itens na mesma linha */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+header img {
+    max-width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 10px; /* Adicione margem à direita para separar a imagem do texto */
+}
+
+header h1 {
+    font-family: 'Quattrocento', serif;
+    max-width: auto; /* Ajuste o tamanho conforme necessário */
+    margin-left: 20px; 
+    margin-right:auto; /* Adicione margem à direita para separar a imagem do texto */
+}
+
+section {
+    max-width: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    font-family: 'Quattrocento', serif;
+}
+
+h3 {
+    color: #333;
+    font-family: 'Quattrocento', serif;
+}
+
+p {
+    font-family: 'Quattrocento', serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Ajuste o estilo para telas menores que 600px */
+    header {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
+
+.product-card {
+    max-width: 350px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-info h3 {
+    margin-top: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
